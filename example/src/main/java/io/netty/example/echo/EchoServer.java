@@ -34,6 +34,7 @@ import io.netty.handler.ssl.util.SelfSignedCertificate;
  * Echoes back any received data from a client.
  */
 public final class EchoServer {
+    // 源码解析
 
     static final boolean SSL = System.getProperty("ssl") != null;
     static final int PORT = Integer.parseInt(System.getProperty("port", "8007"));
